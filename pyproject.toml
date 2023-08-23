@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 65", "wheel >= 0.29.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpo-salpha-poc"
+readme = "README.md"
+dependencies = [
+    "pyrokinetics",
+    "inference-tools",
+    "numpy",
+    "tqdm",
+    "matplotlib",
+    "xarray",
+]
+version = "0.1.0"
